@@ -1,0 +1,12 @@
+<div (cdkObserveContent)="contentChanged.emit()">
+  <ng-template #simpleText>
+    <div
+      *ngIf="text || template"
+      class="tooltip-container opal-radius-12 opal-p-3 opal-text-white">
+      <span class="opal-body-3">{{ text }}</span>
+    </div>
+  </ng-template>
+  <ng-template
+    [ngTemplateOutlet]="template || simpleText"
+    [ngTemplateOutletContext]="{ $implicit: text }"></ng-template>
+</div>

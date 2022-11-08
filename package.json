@@ -1,0 +1,20 @@
+{
+  "name": "@traent/ngx-tooltip",
+  "version": "0.0.4",
+  "author": {
+    "name": "Traent S.r.l."
+  },
+  "license": "Apache License 2.0",
+  "scripts": {
+    "doc:common": "compodoc -p ./tsconfig.doc.json --hideGenerator --name '@traent/ngx-tooltip'",
+    "doc:generate": "npm run doc:lib:common",
+    "doc:serve": "npm run doc:lib:common -- --serve"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.1.2",
+    "@angular/core": "^14.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  }
+}
