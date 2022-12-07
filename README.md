@@ -10,7 +10,7 @@
 
 > @traent/ngx-tooltip is an Angular library that provides a tooltip component for showing a tooltip with custom styles.
 
-> Important note: This library is actually under development and could have some further breaking changes. We are also planning to move it inside [@traent/ngx-components](https://github.com/traent/ngx-components).
+> Notice: This library is currently under development and might be subjected to breaking changes. We also plan to move it inside [@traent/ngx-components](https://github.com/traent/ngx-components).
 
 ## Compatibility with Angular Versions
 
@@ -53,5 +53,4 @@ In the future, we will improve the tooling to allow everyone to build this libra
 
 ## Contributors
 
-At the moment, contributions are not supported through Pull Request.
-However, we truly appreciate any feedback made through the issue system.
+We are open to any contributions and feedbacks.
