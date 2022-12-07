@@ -1,6 +1,6 @@
 {
   "name": "@traent/ngx-tooltip",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "author": {
     "name": "Traent S.r.l."
   },
@@ -16,5 +16,10 @@
   },
   "dependencies": {
     "tslib": "^2.2.0"
+  },
+  "exports": {
+    "./assets/styles.min": {
+      "sass": "./assets/styles.min.scss"
+    }
   }
 }
