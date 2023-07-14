@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-t3-tooltip'),
+      dir: require('path').join(__dirname, '../../../coverage/traent/ngx-tooltip'),
       subdir: '.',
       reporters: [
         { type: 'html' },

@@ -14,7 +14,7 @@ import {
 } from '@angular/core';
 import { takeUntil, Subject } from 'rxjs';
 
-import { NgxT3TooltipComponent } from './ngx-t3-tooltip.component';
+import { NgxT3TooltipComponent } from './ngx-tooltip.component';
 
 type TooltipMode = 'hover' | 'click' | 'custom';
 
