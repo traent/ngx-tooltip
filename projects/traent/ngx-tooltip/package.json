@@ -1,0 +1,29 @@
+{
+  "name": "@traent/ngx-tooltip",
+  "version": "0.1.8",
+  "author": {
+    "name": "Traent S.r.l."
+  },
+  "license": "Apache License 2.0",
+  "scripts": {
+    "doc:common": "compodoc -p ./tsconfig.doc.json --hideGenerator --name '@traent/ngx-tooltip'",
+    "doc:generate": "npm run doc:lib:common",
+    "doc:serve": "npm run doc:lib:common -- --serve"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/material": "^14.2.0",
+    "@traent/design-system": ">=0.0.6 <=0.0.x",
+    "rxjs": "^7.5.7"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "exports": {
+    "./assets/styles.min": {
+      "sass": "./assets/styles.min.scss"
+    }
+  }
+}

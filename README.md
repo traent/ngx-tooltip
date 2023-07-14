@@ -39,7 +39,11 @@ class AppModule {}
 
 ## API & Examples
 
-Coming Soon.
+The example app can be launched using `npm run serve:example`.
+
+In it, you can find a simple usage of the directive `ngxT3Tooltip`, showcasing how you can use this library to show simple tooltips or more complex ones by referring to an `ng-template`.
+
+Plus, you can see in action some of `ngxT3Tooltip`'s properties, such as       `tooltipMode`, `tooltipTemplate`, `tooltipPosition`.
 
 ## Building & Publishing
 

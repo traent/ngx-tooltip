@@ -1,0 +1,72 @@
+<span class="tw-ml-5 tw-font-bold">Without template</span>
+
+<div class="container tw-mb-2">
+  <div class="content">
+    <div
+      ngxT3Tooltip="click!"
+      tooltipMode="click"
+      [tooltipPosition]="clickTooltipPosition">
+      Click me
+    </div>
+  </div>
+
+  <div class="content">
+    <div
+      ngxT3Tooltip="hover!"
+      tooltipMode="hover"
+      [tooltipPosition]="hoverTooltipPosition">
+      Hover me
+    </div>
+  </div>
+</div>
+
+<span class="tw-ml-5 tw-font-bold">Using templates</span>
+
+<div class="container">
+  <div class="content">
+    <div
+      ngxT3Tooltip
+      tooltipMode="click"
+      [tooltipTemplate]="tooltipClickTemplate"
+      [tooltipPosition]="menuTooltipPosition"
+      >
+      Click me
+    </div>
+
+    <ng-template #tooltipClickTemplate>
+      <div class="menu-template tw-shadow-menu tw-bg-white tw-py-1">
+        <span class="tw-text-xs tw-font-bold tw-uppercase tw-text-gray-400 tw-py-2 tw-px-3">A custom menu made with NgxT3Tooltip</span>
+        <button class="tw-py-2">
+          <span>Option 1</span>
+        </button>
+        <button class="tw-py-2 tw-px-3">
+          <span>Option 2</span>
+        </button>
+        <button class="tw-py-2 tw-px-3">
+          <span>Option 3</span>
+        </button>
+      </div>
+    </ng-template>
+  </div>
+
+  <div class="content">
+    <div
+      ngxT3Tooltip
+      tooltipMode="hover"
+      [tooltipTemplate]="tooltipHoverTemplate"
+      [tooltipPosition]="menuTooltipPosition">
+      Click me
+    </div>
+
+    <ng-template #tooltipHoverTemplate>
+      <div class="tw-shadow-menu tw-w-80 tw-bg-white tw-py-1">
+        <div class="tw-flex tw-flex-col tw-text-xs tw-mx-auto tw-py-2 tw-px-3">
+          <span class="tw-font-bold tw-uppercase tw-text-gray-400">Template shown on hover</span>
+          <span>
+            You can also show a custom template on hover, to display more informations!
+          </span>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</div>

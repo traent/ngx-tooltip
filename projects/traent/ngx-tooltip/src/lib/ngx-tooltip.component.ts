@@ -2,8 +2,8 @@ import { Component, Input, TemplateRef, EventEmitter, Output } from '@angular/co
 
 @Component({
   selector: 'ngx-t3-tooltip',
-  templateUrl: './ngx-t3-tooltip.component.html',
-  styleUrls: ['./ngx-t3-tooltip.component.scss'],
+  templateUrl: './ngx-tooltip.component.html',
+  styleUrls: ['./ngx-tooltip.component.scss'],
 })
 export class NgxT3TooltipComponent {
   @Input() text?: string;

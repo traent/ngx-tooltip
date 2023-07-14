@@ -1,0 +1,26 @@
+{
+  "extends": "../../../.eslintrc.json",
+  "ignorePatterns": [
+    "!**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "projects/traent/ngx-tooltip/tsconfig.lib.json",
+          "projects/traent/ngx-tooltip/tsconfig.spec.json"
+        ],
+        "createDefaultProgram": true
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "rules": {}
+    }
+  ]
+}
